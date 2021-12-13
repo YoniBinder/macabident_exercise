@@ -1,0 +1,48 @@
+.footer{
+    direction: rtl;
+    position:relative;
+    color:#1a389c;
+    img{
+        position:absolute;
+        z-index: -1;
+        opacity: 0.3;
+    }
+    .table-container{
+        padding-top: 100px;
+        width:600px;
+        top:100px;
+        margin-left:auto;
+        margin-right:auto;
+        .table-links{
+            
+            
+            width: 100%;
+            .links-title th{
+                padding-bottom: 10px;
+                text-align: right;
+                margin-bottom: 30px;
+            }
+            td{
+                padding-bottom: 5px;
+            }
+            .more-categories{
+                font-weight: bold;
+            
+            }
+        }
+    }
+    
+   .icons-container{
+        padding-top: 100px;
+        display: grid;
+        grid-template-columns: 16% 16% 16% 16% 16% 16%;
+        width:100%;
+        text-align: center;
+        .icon-link{
+            margin:5px auto;
+            width:100px;
+            font-weight: bold;
+            font-size: 12px;
+        }
+   }
+}

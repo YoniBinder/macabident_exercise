@@ -1,0 +1,6 @@
+
+html, body {
+    direction: rtl;
+    max-width: 100%;
+    overflow-x: hidden;
+}
