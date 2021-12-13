@@ -1,13 +1,13 @@
-import './App.css';
-import { useState,useEffect } from 'react';
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
-import List from './components/List/List'
-import Search from './components/Search/Search'
+import "./App.css";
+import { useState, useEffect } from "react";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import List from "./components/List/List";
+import Search from "./components/Search/Search";
 function App() {
   const [appData, setAppData] = useState();
-  const [doctors, setDoctors] = useState([])
-  const [searchValue, setSearchValue] = useState("")
+  const [doctors, setDoctors] = useState([]);
+  const [searchValue, setSearchValue] = useState("");
 
   useEffect(() => {
     fetch("/doctors.json")
@@ -17,24 +17,22 @@ function App() {
       });
   }, []);
 
-
-  function updateSearch(searchInput){
-    
-    let newList=appData.filter((doctor)=>{
-      return doctor.name.split(' ').some((doc)=>{
-        return doc.includes(searchInput)
-      })
-    })
-    setSearchValue(searchInput)
-    setDoctors(newList)
+  function updateSearch(searchInput) {
+    let newList = appData.filter((doctor) => {
+      return doctor.name.split(" ").some((doc) => {
+        return doc.includes(searchInput);
+      });
+    });
+    setSearchValue(searchInput);
+    setDoctors(newList);
   }
-  
+
   return (
     <div>
-      <Header/>
-      <Search updateSearch={updateSearch}/>
-      <List doctors={doctors} searchValue={searchValue}/>
-      <Footer/>
+      <Header />
+      <Search updateSearch={updateSearch} />
+      <List doctors={doctors} searchValue={searchValue} />
+      <Footer />
     </div>
   );
 }

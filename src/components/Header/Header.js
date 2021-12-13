@@ -20,35 +20,35 @@ export default function Header() {
           />
           <div className="icons-container">
             <div className="grid-item">
-            <i className="fa fa-wheelchair"></i>
-          
+              <i className="fa fa-wheelchair"></i>
+
               <div className="icon-link">נגישות</div>
             </div>
             <div className="grid-item">
-            <i className="fa fa-envelope"></i>
-    
+              <i className="fa fa-envelope"></i>
+
               <div className="icon-link">צור קשר</div>
             </div>
             <div className="grid-item">
-            <i className="fa fa-user"></i>
-        
+              <i className="fa fa-user"></i>
+
               <div className="icon-link">אזור אישי</div>
             </div>
             <div className="grid-item">
-            <i className="fa fa-calendar-alt"></i>
-        
+              <i className="fa fa-calendar-alt"></i>
+
               <div className="icon-link">תיאום / ביטול תור</div>
             </div>
             <div className="grid-item">
-            <i className="fa fa-phone-alt"></i>
-           
+              <i className="fa fa-phone-alt"></i>
+
               <div className="icon-link">*6300</div>
             </div>
           </div>
         </div>
         <div className="rightnavbar">
-            <img className="logo" src={logo} alt="..."/>
-            <div className="navbar-container">
+          <img className="logo" src={logo} alt="..." />
+          <div className="navbar-container">
             <div className="grid-item">
               <div className="nav-link">המרפאות שלנו</div>
             </div>
@@ -66,7 +66,6 @@ export default function Header() {
             </div>
           </div>
         </div>
-
       </div>
     </>
   );
