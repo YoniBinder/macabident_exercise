@@ -21,7 +21,7 @@ function App() {
   function updateSearch(searchInput){
     
     let newList=appData.filter((doctor)=>{
-      return doctor.name.split(' ').filter((doc)=>{
+      return doctor.name.split(' ').some((doc)=>{
         return doc.includes(searchInput)
       })
     })

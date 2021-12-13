@@ -38,6 +38,14 @@
         grid-template-columns: 16% 16% 16% 16% 16% 16%;
         width:100%;
         text-align: center;
+        .fa-envelope,.fa-user,.fa-calendar-alt,.fa-phone-alt,.fa-map-marker-alt,.fa-search{
+            display: inline-block;
+            border-radius: 50%;
+            border: 2px solid #1a389c;
+            padding: 0.5em 0.6em;
+            color:#1a389c;
+            font-size: 25px;
+        }
         .icon-link{
             margin:5px auto;
             width:100px;

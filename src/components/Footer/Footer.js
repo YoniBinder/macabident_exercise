@@ -86,49 +86,36 @@ export default function Footer() {
       </div>
       <div className="icons-container">
             <div className="grid-item">
-            <span className="fa-stack"  style={{verticalAlign: 'top',fontSize:'1.5em'}}>
-              <i className="far fa-circle fa-stack-2x" style={{color:"#1a389c"}}></i>
-              <i className="fas fa-map-marker-alt fa-stack-1x"  style={{color:"#1a389c"}}></i>
-            </span> 
+            <i className="fa fa-map-marker-alt"></i>
               <div className="icon-link">איתור מרפאה</div>
             </div>
             <div className="grid-item">
-            <span className="fa-stack"  style={{verticalAlign: 'top',fontSize:'1.5em'}}>
-              <i className="far fa-circle fa-stack-2x" style={{color:"#1a389c"}}></i>
-              <i className="fas fa-search fa-stack-1x"  style={{color:"#1a389c"}}></i>
-            </span> 
+            <i className="fa fa-search"></i>
+     
               <div className="icon-link">חיפוש רופאים ומומחים</div>
             </div>
             
             <div className="grid-item">
-            <span className="fa-stack"  style={{verticalAlign: 'top',fontSize:'1.5em'}}>
-              <i className="far fa-circle fa-stack-2x" style={{color:"#1a389c"}}></i>
-              <i className="far fa-user fa-stack-1x "  style={{color:"#1a389c"}}></i>
-            </span> 
+            <i className="fa fa-user"></i>
+         
               <div className="icon-link">אזור אישי</div>
             </div>
             
             
             <div className="grid-item">
-            <span className="fa-stack"  style={{verticalAlign: 'top',fontSize:'1.5em'}}>
-              <i className="far fa-circle fa-stack-2x" style={{color:"#1a389c"}}></i>
-              <i className="far fa-calendar-alt fa-stack-1x "  style={{color:"#1a389c"}}></i>
-            </span> 
+            <i className="fa fa-calendar-alt"></i>
+             
               <div className="icon-link">תיאום / ביטול תור</div>
             </div>
             <div className="grid-item">
-            <span className="fa-stack"  style={{verticalAlign: 'top',fontSize:'1.5em'}}>
-              <i className="far fa-circle fa-stack-2x" style={{color:"#1a389c"}}></i>
-              <i className="fas fa-phone-alt fa-stack-1x "  style={{color:"#1a389c"}}></i>
-            </span> 
+            <i className="fa fa-phone-alt"></i>
+            
               <div className="icon-link">*6300</div>
             </div>
     
             <div className="grid-item">
-            <span className="fa-stack" style={{verticalAlign: 'top',fontSize:'1.5em'}}>
-              <i className="far fa-circle fa-stack-2x" style={{color:"#1a389c"}}></i>
-              <i className="far fa-envelope fa-stack-1x" style={{color:"#1a389c"}}></i>
-            </span>
+            <i className="fa fa-envelope"></i>
+           
               <div className="icon-link">צור קשר</div>
             </div>
           </div>
